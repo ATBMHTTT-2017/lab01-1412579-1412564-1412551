@@ -14,8 +14,10 @@ dienThoai number,
 email varchar2(100),
 maPhong number,
 chiNhanh number,
-luong number(10,2)
+luong number(10,2),
+chucVu numer(1,0)
 )
+--Chuc vu 0 là nhân viên, 1 là giám đống
 
 Create table ChiNhanh(
 maCN number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
@@ -28,7 +30,7 @@ Create table PhongBan(
 maPhong number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
 tenPhong varchar2(50) NOT NULL,
 truongPhong number NOT NULL,
-ngayNhamChuc varchar2(50),
+ngayNhanChuc date,
 soNhanVien number,
 chiNhanh number NOT NULL
 )
@@ -66,7 +68,7 @@ ALTER TABLE ChiNhanh
 ADD CONSTRAINT PK_ChiNhanh
 PRIMARY KEY(maCN)
 
-ALTER TABLE NhanVien
+ALTER TABLE NhanVie
 ADD CONSTRAINT PK_NhanVien
 PRIMARY KEY(maNV)
 
@@ -93,7 +95,7 @@ REFERENCES NhanVien(maNV)
 ALTER TABLE NhanVien
 ADD CONSTRAINT FK1_NhanVien_PhongBan 
 FOREIGN KEY(maPhong) 
-REFERENCES Phongban(maPhong)
+REFERENCES PhongBan(maPhong)
 
 -- FK NHÂN VIÊN - CHI NHÁNH 
 ALTER TABLE NhanVien
@@ -102,12 +104,12 @@ FOREIGN KEY(chiNhanh)
 REFERENCES ChiNhanh(maCN)
 
 -- FK PHÒNG BAN
-ALTER TABLE Phongban
+ALTER TABLE PhongBan
 ADD CONSTRAINT FK1_PhongBan_ChiNhanh
 FOREIGN KEY(chiNhanh) 
 REFERENCES ChiNhanh(maCN)
 
-ALTER TABLE Phongban
+ALTER TABLE PhongBan
 ADD CONSTRAINT FK2_PhongBan_NhanVien 
 FOREIGN KEY(truongPhong) 
 REFERENCES NhanVien(maNV)
@@ -121,7 +123,7 @@ REFERENCES NhanVien(maNV)
 ALTER TABLE DuAn
 ADD CONSTRAINT FK2_DuAn_PhongBan
 FOREIGN KEY(PhongChuTri) 
-REFERENCES Phongban(maPhong)
+REFERENCES PhongBan(maPhong)
 
 -- FK CHỈ TIÊU
 ALTER TABLE ChiTieu
@@ -143,3 +145,6 @@ REFERENCES NhanVien(maNV)
 -- DELETE FK TO DROP TABLE
 alter table NhanVien drop constraint FK1_NhanVien_PhongBan
 alter table NhanVien drop constraint FK2_NhanVien_ChiNhanh
+
+-- Add column chucVu
+ALTER TABLE NhanVien ADD chucVu number(1,0)
