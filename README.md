@@ -1,11 +1,11 @@
-# BT-ATBMHTTT-1 - *Name of your app*
+﻿# BT-ATBMHTTT-1 - *Name of your app*
 
 **Name of your app** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
 
 Thành viên:
 * [ ] **1412579** Vũ Minh Trí (boyvmt)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
-* [ ] **MSSV3** Tên sinh viên 2 (tên tài khoản github)
+* [ ] **1412564** Trần Thùy Bích Trâm (bichtramtran)
+* [ ] **1412551** Nguyễn Đang Tích (ndtich)
 
 ## Yêu cầu
 
