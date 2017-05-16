@@ -3,9 +3,9 @@
 **Name of your app** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
 
 Thành viên:
-* [ ] **1412579** Vũ Minh Trí (boyvmt)
-* [ ] **1412564** Trần Thùy Bích Trâm (bichtramtran)
-* [ ] **1412551** Nguyễn Đang Tích (ndtich)
+* [x] **1412579** Vũ Minh Trí (boyvmt)
+* [x] **1412564** Trần Thùy Bích Trâm (bichtramtran)
+* [x] **1412551** Nguyễn Đang Tích (ndtich)
 
 ## Yêu cầu
 
