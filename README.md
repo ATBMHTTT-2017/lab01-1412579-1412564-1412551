@@ -1,6 +1,6 @@
-﻿# BT-ATBMHTTT-1 - *Name of your app*
+﻿# BT-ATBMHTTT-1 - *Phân quyền*
 
-**Name of your app** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
+**Phân quyền** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
 
 Thành viên:
 * [x] **1412579** Vũ Minh Trí (boyvmt)
@@ -46,7 +46,7 @@ Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 
 Link ảnh GIF demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
+[![Demo Lab01 - 1412579 - 1412564 - 1412551](https://img.youtube.com/vi/GS-zwiPnLGc/0.jpg)](https://www.youtube.com/watch?v=GS-zwiPnLGc)
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 

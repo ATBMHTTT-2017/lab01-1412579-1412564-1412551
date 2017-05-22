@@ -122,6 +122,7 @@ label_value => 'GH:NS:HK');
 END;
 
 --gán chính sách cho bảng dự án
+EXEC SA_POLICY_ADMIN.APPLY_TABLE_POLICY('OLS_DuAn', 'tangliang', 'DUAN', 'READ_CONTROL');
 EXEC SA_POLICY_ADMIN.APPLY_TABLE_POLICY('OLS_DuAn', 'tangliang', 'DUAN', 'NO_CONTROL');
 EXEC SA_POLICY_ADMIN.REMOVE_TABLE_POLICY('OLS_DuAn', 'tangliang', 'DUAN');
 
