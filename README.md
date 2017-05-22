@@ -2,6 +2,8 @@
 
 **Phân quyền** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
 
+### Vì lý do em để chỉ mình em có quyền push trên master nên bạn ấy không push được lên master, em đã lấy file bạn ấy push từ branch feature/1412564, mong thầy thông cảm.
+
 Thành viên:
 * [x] **1412579** Vũ Minh Trí (boyvmt)
 * [x] **1412564** Trần Thùy Bích Trâm (bichtramtran)
