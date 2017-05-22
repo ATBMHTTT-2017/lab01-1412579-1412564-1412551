@@ -1,9 +1,9 @@
 --Create Role với chi tiết từ DAC (thêm bớt sau nếu có thể)
-CREATE ROLE TruongPhong IDENTIFIED BY NeuCan; 
-CREATE ROLE GiamDoc IDENTIFIED BY NeuCan; 
-CREATE ROLE TruongChiNhanh IDENTIFIED BY NeuCan; 
-CREATE ROLE NhanVien IDENTIFIED BY NeuCan; 
-CREATE ROLE TruongDuAn IDENTIFIED BY NeuCan; 
+CREATE ROLE TruongPhong; 
+CREATE ROLE GiamDoc; 
+CREATE ROLE TruongChiNhanh; 
+CREATE ROLE NhanVien; 
+CREATE ROLE TruongDuAn; 
 
 --Grant các quyền cho Role
 --Trưởng phòng
