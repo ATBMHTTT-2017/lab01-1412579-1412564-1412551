@@ -6,7 +6,10 @@ DEFAULT TABLESPACE "USERS"
 TEMPORARY TABLESPACE "TEMP";
 grant connect to tangliang;
 
-
+CREATE USER bichtram IDENTIFIED BY 1412564
+DEFAULT TABLESPACE "USERS"
+TEMPORARY TABLESPACE "TEMP";
+grant connect to bichtram; 
 
 -- Create user cho Giám đốc
 CREATE USER "10000" IDENTIFIED BY 1 ;
