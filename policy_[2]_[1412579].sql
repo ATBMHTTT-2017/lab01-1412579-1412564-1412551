@@ -8,7 +8,6 @@ CREATE ROLE TruongDuAn IDENTIFIED BY NeuCan;
 --Grant các quyền cho Role
 --Trưởng phòng
 GRANT INSERT, UPDATE ON DUAN TO TruongPhong;
-GRANT EXECUTE ON capNhatPhongBan TO TruongPhong;
 
 GRANT SELECT ON DUAN TO GiamDoc
 GRANT SELECT ON PHONGBAN TO GiamDoc
