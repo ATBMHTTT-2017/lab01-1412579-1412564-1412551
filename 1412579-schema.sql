@@ -1,5 +1,5 @@
 Create table NhanVien(
-maNV number GENERATED ALWAYS as IDENTITY(START with 99999 INCREMENT by 1),
+maNV number GENERATED ALWAYS as IDENTITY(START with 9999 INCREMENT by 1),
 hoTen varchar2(50) NOT NULL,
 diaChi varchar2(100) NOT NULL,
 dienThoai number,
